@@ -1,0 +1,7 @@
+*.swp
+*.class
+.idea
+.classpath
+.settings
+.svn
+target

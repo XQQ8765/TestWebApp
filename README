@@ -1,0 +1,6 @@
+1. How to build?
+d:\workspace\APM5\Testapp\TestWebApp>set JAVA_HOME=c:\Program Files\Java\jdk1.7.0_05
+d:\workspace\APM5\Testapp\TestWebApp>mvn package
+
+2. The generated "TestWebApp-1.0-SNAPSHOT.war" can be deployed into JBoss EAP or Wildfly.
+For testing Book Entity Bean(EJB3), can access url: http://localhost:PORT/TestWebApp-1.0-SNAPSHOT/InvokeBookForJPA
